@@ -4,6 +4,10 @@
   "description": "Language features for Info File.",
   "version": "1.0.0",
   "publisher": "QuadWtf",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Quad-wtf/Info-File.git"
+  },
   "engines": {
     "vscode": "^1.98.0"
   },
