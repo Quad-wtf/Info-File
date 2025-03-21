@@ -1,0 +1,40 @@
+{
+  "name": "info-file",
+  "displayName": "Info File",
+  "description": "Language features for Info File.",
+  "version": "1.0.0",
+  "publisher": "QuadWtf",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "ff",
+        "aliases": ["Info File", "ff"],
+        "extensions": [".ff"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "ff",
+        "scopeName": "source.info",
+        "path": "./syntaxes/ff.tmLanguage.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "Info File Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/info-file-theme.json"
+      }
+    ]
+  },
+  "icon": "images/icon.png", 
+  "license": "LICENSE",
+  "readme": "README.md"
+}

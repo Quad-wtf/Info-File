@@ -1,0 +1,33 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Info File",
+	"patterns": [
+	  {
+		 "include": "#variable-declaration"
+	  }
+	],
+	"repository": {
+	  "variable-declaration": {
+		 "patterns": [
+			{
+			  "name": "keyword.control.ff",
+			  "match": "\\bvar\\b"
+			},
+			{
+			  "name": "variable.name.ff",
+			  "match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\b(?=\\s*:)"
+			},
+			{
+			  "name": "storage.type.ff",
+			  "match": "\\b(int|float|string)\\b"
+			},
+			{
+			  "name": "variable.value.ff",
+			  "match": "\\[[^\\]]+\\]"
+			}
+		 ]
+	  }
+	},
+	"scopeName": "source.info"
+ }
+ 

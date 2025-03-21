@@ -1,0 +1,56 @@
+{
+  "name": "Info File Theme",
+  "type": "dark",  
+  "colors": {
+    "editor.background": "#282C34",
+    "editor.foreground": "#ABB2BF",
+    "editorCursor.foreground": "#528BFF",
+    "editor.lineHighlightBackground": "#2C313C"
+  },
+  "tokenColors": [
+    {
+      "scope": "keyword.control.ff",
+      "settings": {
+        "foreground": "#C678DD",  
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "variable.name.ff",
+      "settings": {
+        "foreground": "#E5C07B"  
+      }
+    },
+    {
+      "scope": "storage.type.ff",
+      "settings": {
+        "foreground": "#56B6C2",  
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "string.quoted.double.ff",
+      "settings": {
+        "foreground": "#98C379"
+      }
+    },
+    {
+      "scope": "constant.character.escape.ff",
+      "settings": {
+        "foreground": "#56B6C2"  
+      }
+    },
+    {
+      "scope": "variable.value.ff",
+      "settings": {
+        "foreground": "#FFA500"
+      }
+    },
+    {
+      "scope": "source.ff",
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    }
+  ]
+}
